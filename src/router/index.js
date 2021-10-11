@@ -6,14 +6,14 @@ const routes = [
   {
     path: "/",
     name: "Mainpage",
-    component: () => import("../views/Mainpage.vue")
-  }
+    component: () => import("../views/Mainpage.vue"),
+  },
 ];
 
 const router = new VueRouter({
   mode: "history",
   base: process.env.BASE_URL,
-  routes
+  routes,
 });
 
 export default router;

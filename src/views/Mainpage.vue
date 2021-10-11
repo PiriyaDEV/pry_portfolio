@@ -1,18 +1,19 @@
 <template>
   <div id="mainpage">
-    <Information/>
+    <Information />
+    <WorkProject />
   </div>
 </template>
 
 <script>
-import Information from "../components/Information.vue"
+import Information from "../components/Information.vue";
+import WorkProject from "../components/WorkProject.vue";
 export default {
-  components:{
-    Information
-  }
-}
+  components: {
+    Information,
+    WorkProject,
+  },
+};
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>
