@@ -111,6 +111,15 @@ button {
   font-weight: 300;
 }
 
+.yl-bullet {
+  margin-top: 7px;
+}
+
+.skill-cir-icon {
+  width: 50px;
+  margin-right: 20px;
+}
+
 /* Slide */
 .vueperslides__arrow svg {
   stroke-width: 2px !important;
