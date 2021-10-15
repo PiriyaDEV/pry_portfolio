@@ -3,11 +3,11 @@
     <img class="yl-bullet" src="../assets/Ellipse_32x.png" alt="" />
 
     <div id="information">
-      <h1 class="title">TITLE</h1>
+      <h1 class="title">{{ workInfo.name }}</h1>
 
       <div class="skill-cir">
-        <div v-for="(skill, i) in skillList" :key="i">
-          <img class="skill-cir-icon" src="../assets/mockup-cir.png" alt="" />
+        <div v-for="(skill, i) in workInfo.icon" :key="i">
+          <img class="skill-cir-icon" :src="workInfo.icon[i].path" alt="" />
         </div>
       </div>
 
@@ -49,6 +49,7 @@ export default {
     VueperSlides,
     VueperSlide,
   },
+  props: ["workInfo"],
   data() {
     return {
       skillList: 4,
