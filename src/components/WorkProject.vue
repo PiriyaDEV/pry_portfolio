@@ -85,56 +85,137 @@ export default {
       works: [
         {
           name: "AI FOR ALL",
+          bracket: "Mhesi/Nxpo",
           links: [
-            { path: "https://www.aiforall.or.th" },
-            { path: "https://www.facebook.com/AIThaiSmartbyAIForAll/" },
+            { name: "Facebook", path: "https://www.aiforall.or.th" },
+            {
+              name: "Website",
+              path: "https://www.facebook.com/AIThaiSmartbyAIForAll",
+            },
           ],
-          type: "webdev",
+          type: "wordpress",
           description:
             "Blog website for project “AI for ALL” giving information, news and knowledge about AI for Thai people. Provided by NXPO and PMU",
           icon: [
             { path: require("@/assets/skill-icon/wp.png") },
-            { path: require("@/assets/skill-icon/wp.png") },
+            { path: require("@/assets/skill-icon/elem.png") },
+          ],
+          images: [
+            {
+              path: require("../assets/work/ai/Screen Shot 2564-04-05 at 23.46 2.png"),
+            },
+            {
+              path: require("../assets/work/ai/Screen Shot 2564-04-05 at 23.46 3.png"),
+            },
+            {
+              path: require("../assets/work/ai/Screen Shot 2564-04-05 at 23.48 1.png"),
+            },
+            {
+              path: require("../assets/work/ai/Screen Shot 2564-04-05 at 23.49 1.png"),
+            },
           ],
         },
         {
           name: "Riche’ Place",
-          links: [{ path: "https://richedevelopment.com" }],
+          bracket: "Riche Development",
+          links: [
+            {
+              name: "Website",
+              path: "https://richedevelopment.com",
+            },
+          ],
+          type: "wordpress",
           description:
             "Real estate website for “Riche Place” provided by Procon & system company limited",
+          icon: [
+            { path: require("@/assets/skill-icon/wp.png") },
+            { path: require("@/assets/skill-icon/elem.png") },
+          ],
+          images: [
+            {
+              path: require("../assets/work/richeplace/Screen Shot 2564-04-05 at 23.52 1.png"),
+            },
+            {
+              path: require("../assets/work/richeplace/Screen Shot 2564-04-05 at 23.52 3.png"),
+            },
+            {
+              path: require("../assets/work/richeplace/Screen Shot 2564-04-05 at 23.53 1.png"),
+            },
+            {
+              path: require("../assets/work/richeplace/Screen Shot 2564-04-05 at 23.53 3.png"),
+            },
+          ],
         },
         {
           name: "Learning Connect",
-          links: [{ path: "https://learningconnext.com/" }],
-          type: "webdev",
+          bracket: "Connextion",
+          links: [
+            {
+              name: "Website",
+              path: "https://learningconnext.com/",
+            },
+          ],
+          type: "wordpress",
           description:
-            "Website for learning center “Learning Connext” learning sources for kids, family and community",
+            "Real estate Website for learning center “Learning Connext” learning sources for kids, family and community",
+          icon: [
+            { path: require("@/assets/skill-icon/wp.png") },
+            { path: require("@/assets/skill-icon/elem.png") },
+          ],
+          images: [
+            {
+              path: require("../assets/work/Learning Connext/Screen Shot 2564-04-05 at 23.57 1.png"),
+            },
+            {
+              path: require("../assets/work/Learning Connext/Screen Shot 2564-04-05 at 23.57 2.png"),
+            },
+            {
+              path: require("../assets/work/Learning Connext/Screen Shot 2564-04-05 at 23.58 1.png"),
+            },
+            {
+              path: require("../assets/work/Learning Connext/Screen Shot 2564-04-05 at 23.59 1.png"),
+            },
+          ],
         },
         {
           name: "TMLCC Website",
+          bracket: "Thailand Machine Learning for Chemistry Competition",
           links: [
-            { path: "https://tmlcc.cseathai.org/" },
-            { path: "https://www.facebook.com/AIThaiSmartbyAIForAll/" },
+            {
+              name: "Website",
+              path: "https://tmlcc.cseathai.org/",
+            },
           ],
           type: "webdev",
           description:
             "Vue.js Registration Website for the competitor in Thailand Machine Learning for Chemistry Competition. Users can create teams and follow news, files and videos via their own dashboard. Currently there are 1069 active users in the system",
-        },
-        {
-          name: "Banyen Chatbot",
-          links: null,
-          type: "chatbot",
-          description:
-            "Receiving product order and stock management for client by team “Banyen” by Siam Cement Group",
+          icon: [
+            { path: require("@/assets/skill-icon/wp.png") },
+            { path: require("@/assets/skill-icon/elem.png") },
+          ],
+          images: [
+            {
+              path: require("../assets/work/Learning Connext/Screen Shot 2564-04-05 at 23.57 1.png"),
+            },
+            {
+              path: require("../assets/work/Learning Connext/Screen Shot 2564-04-05 at 23.57 2.png"),
+            },
+            {
+              path: require("../assets/work/Learning Connext/Screen Shot 2564-04-05 at 23.58 1.png"),
+            },
+            {
+              path: require("../assets/work/Learning Connext/Screen Shot 2564-04-05 at 23.59 1.png"),
+            },
+          ],
         },
       ],
       swiperOption: {
         slidesPerView: 1,
         spaceBetween: 30,
-        autoplay: {
-          delay: 4000,
-          disableOnInteraction: true,
-        },
+        // autoplay: {
+        //   delay: 4000,
+        //   disableOnInteraction: true,
+        // },
         pagination: {
           el: ".swiper-pagination",
           clickable: true,
