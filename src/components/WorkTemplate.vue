@@ -4,6 +4,7 @@
 
     <div id="information">
       <h1 class="title">{{ workInfo.name }}</h1>
+      <h1 class="bracket">({{ workInfo.bracket }})</h1>
 
       <div class="skill-cir">
         <div v-for="(skill, i) in workInfo.icon" :key="i">
@@ -12,16 +13,17 @@
       </div>
 
       <p class="p-text">
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
+        {{ workInfo.description }}
       </p>
+
+      <div v-if="workInfo.links != null">
+        <h1 class="p-text" v-for="(link, i) in workInfo.links" :key="i">
+          {{ workInfo.links[i].name }} :
+          <a class="link-text" :href="workInfo.links[i].path" target="_blank">{{
+            workInfo.links[i].path
+          }}</a>
+        </h1>
+      </div>
     </div>
 
     <div>
@@ -32,9 +34,9 @@
         :fixed-height="true"
       >
         <vueper-slide
-          v-for="(slide, i) in slides"
+          v-for="(slide, i) in workInfo.images"
           :key="i"
-          :image="slide.image"
+          :image="workInfo.images[i].path"
         />
       </vueper-slides>
     </div>
@@ -51,23 +53,7 @@ export default {
   },
   props: ["workInfo"],
   data() {
-    return {
-      skillList: 4,
-      slides: [
-        {
-          image: require("../assets/work/ai/Screen Shot 2564-04-05 at 23.46 2.png"),
-        },
-        {
-          image: require("../assets/work/ai/Screen Shot 2564-04-05 at 23.46 3.png"),
-        },
-        {
-          image: require("../assets/work/ai/Screen Shot 2564-04-05 at 23.48 1.png"),
-        },
-        {
-          image: require("../assets/work/ai/Screen Shot 2564-04-05 at 23.49 1.png"),
-        },
-      ],
-    };
+    return {};
   },
 };
 </script>
@@ -83,11 +69,16 @@ export default {
 
 .title {
   margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .skill-cir {
   display: flex;
   align-items: center;
+}
+
+.skill-cir-icon {
+  width: 35px;
 }
 
 .vueperslides {

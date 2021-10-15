@@ -14,7 +14,7 @@ export default {};
 
 <style>
 @import url("https://use.typekit.net/zqk6rjr.css");
-@import url("https://fonts.googleapis.com/css2?family=Mitr:wght@300;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mitr:wght@200;300;400;500&display=swap");
 
 body,
 html,
@@ -109,6 +109,19 @@ button {
 .title {
   font-size: 4.25em;
   font-weight: 300;
+}
+
+.bracket {
+  color: #aebcc5;
+  font-weight: 200;
+  font-size: 3.5em;
+  margin-bottom: 10px;
+  margin-top: 0px;
+}
+
+.link-text {
+  text-decoration: none;
+  color: #4960ac;
 }
 
 .yl-bullet {
