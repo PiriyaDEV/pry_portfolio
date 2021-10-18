@@ -208,6 +208,173 @@ export default {
             },
           ],
         },
+        {
+          name: "Banyen Chatbot",
+          bracket: "Banyen SCG’s Team",
+          // links: [
+          //   {
+          //     name: "Website",
+          //     path: "https://tmlcc.cseathai.org/",
+          //   },
+          // ],
+          type: "chatbot",
+          description:
+            "Receiving product order and stock management for client by team “Banyen” by Siam Cement Group",
+          icon: [
+            { path: require("@/assets/skill-icon/wp.png") },
+            { path: require("@/assets/skill-icon/elem.png") },
+          ],
+          images: [
+            {
+              path: require("../assets/work/Banyen Chatbot (SCG)/Screenshot_20200330_234401_jp.naver.line.png"),
+            },
+            {
+              path: require("../assets/work/Banyen Chatbot (SCG)/Screenshot_20200330_234419_jp.naver.line.png"),
+            },
+            {
+              path: require("../assets/work/Banyen Chatbot (SCG)/Screenshot_20200330_234508_jp.naver.line.png"),
+            },
+            {
+              path: require("../assets/work/Banyen Chatbot (SCG)/Screenshot_20200330_234522_jp.naver.line.png"),
+            },
+          ],
+        },
+        {
+          name: "CC CPE BOT",
+          bracket: "Computer Exploration Project",
+          // links: [
+          //   {
+          //     name: "Website",
+          //     path: "https://tmlcc.cseathai.org/",
+          //   },
+          // ],
+          type: "chatbot",
+          description:
+            "Gives information about Department of Computer Engineering Receiving the top score on a final project for course Computer Exploration",
+          icon: [
+            { path: require("@/assets/skill-icon/wp.png") },
+            { path: require("@/assets/skill-icon/elem.png") },
+          ],
+          images: [
+            {
+              path: require("../assets/work/CC CPE Chatbot/74389094_103253587814504_8015177829316558848_n.png"),
+            },
+            {
+              path: require("../assets/work/CC CPE Chatbot/74389094_103253587814504_8015177829316558848_n.png"),
+            },
+            {
+              path: require("../assets/work/CC CPE Chatbot/74389094_103253587814504_8015177829316558848_n.png"),
+            },
+            {
+              path: require("../assets/work/CC CPE Chatbot/74389094_103253587814504_8015177829316558848_n.png"),
+            },
+          ],
+        },
+        {
+          name: "CPE Night 2021",
+          bracket: "Vue.js Website",
+          links: [
+            {
+              name: "Github",
+              path: "https://github.com/PiriyaDEV/cpe-night-website",
+            },
+            {
+              name: "Website (Only Frontend)",
+              path: "https://cpenight-demo.netlify.app/ ",
+            },
+          ],
+          type: "webdev",
+          description:
+            "Website One-page of the event CPE night 2021. Using for promote the event, gives the information of the event and user account function for buying the gifts and tickets (Event Cancelled during COVID-19 situation)",
+          icon: [
+            { path: require("@/assets/skill-icon/wp.png") },
+            { path: require("@/assets/skill-icon/elem.png") },
+          ],
+          images: [
+            {
+              path: require("../assets/work/CC CPE Chatbot/74389094_103253587814504_8015177829316558848_n.png"),
+            },
+            {
+              path: require("../assets/work/CC CPE Chatbot/74389094_103253587814504_8015177829316558848_n.png"),
+            },
+            {
+              path: require("../assets/work/CC CPE Chatbot/74389094_103253587814504_8015177829316558848_n.png"),
+            },
+            {
+              path: require("../assets/work/CC CPE Chatbot/74389094_103253587814504_8015177829316558848_n.png"),
+            },
+          ],
+        },
+        {
+          name: "Friendzone",
+          bracket: "Computer Exploration Project",
+          links: [
+            {
+              name: "Github",
+              path: "https://github.com/PiriyaDEV/friendzone_app",
+            },
+            {
+              name: "Website (Only Frontend)",
+              path: "https://friendzone-app.netlify.app/",
+            },
+          ],
+          type: "webdev",
+          description:
+            "This project will gather people that have the same interest and meet up. We virtualize the real system and experiences for this project. Which consists of creating a meetup event room, rating event, chat system and more. Users are able to redeem their points in exchange for their discount with our partners. Including a function that will analyse data for a role “analyzer” for business and marketing opportunities.",
+          icon: [
+            { path: require("@/assets/skill-icon/wp.png") },
+            { path: require("@/assets/skill-icon/elem.png") },
+          ],
+          images: [
+            {
+              path: require("../assets/work/CC CPE Chatbot/74389094_103253587814504_8015177829316558848_n.png"),
+            },
+            {
+              path: require("../assets/work/CC CPE Chatbot/74389094_103253587814504_8015177829316558848_n.png"),
+            },
+            {
+              path: require("../assets/work/CC CPE Chatbot/74389094_103253587814504_8015177829316558848_n.png"),
+            },
+            {
+              path: require("../assets/work/CC CPE Chatbot/74389094_103253587814504_8015177829316558848_n.png"),
+            },
+          ],
+        },
+        {
+          name: "Blood Donation Website",
+          bracket: "MAN AND ETHICS OF LIVING Project",
+          links: [
+            {
+              name: "Github",
+              path: "https://github.com/PiriyaDEV/blood_donation",
+            },
+            {
+              name: "Website",
+              path: "https://cpe2-blooddonation.netlify.app/",
+            },
+          ],
+          type: "webdev",
+          description:
+            "This project is called 'Blood donation campaign during COVID-19 for people who want to donate'. The website includes a video about how to prepare before blood donation. The knowledge about COVID-19 impact on blood supply, the suggestion when you receive the COVID-19 vaccine, and the criteria for who can donate blood. Also, there is the question to check about COVID-19 symptoms and the suggestion when you have COVID-19 symptoms to make donating as safe as possible.",
+          icon: [
+            { path: require("@/assets/skill-icon/wp.png") },
+            { path: require("@/assets/skill-icon/elem.png") },
+          ],
+          images: [
+            {
+              path: require("../assets/work/CC CPE Chatbot/74389094_103253587814504_8015177829316558848_n.png"),
+            },
+            {
+              path: require("../assets/work/CC CPE Chatbot/74389094_103253587814504_8015177829316558848_n.png"),
+            },
+            {
+              path: require("../assets/work/CC CPE Chatbot/74389094_103253587814504_8015177829316558848_n.png"),
+            },
+            {
+              path: require("../assets/work/CC CPE Chatbot/74389094_103253587814504_8015177829316558848_n.png"),
+            },
+          ],
+        },
       ],
       swiperOption: {
         slidesPerView: 1,
