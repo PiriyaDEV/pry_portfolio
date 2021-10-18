@@ -4,14 +4,10 @@
       <h1 class="header">CONTACT ME</h1>
 
       <div id="contact-box" class="section">
-        <div v-for="(contact, i) in contactList" :key="i">
+        <div v-for="(contact, i) in contactInfo" :key="i">
           <div>
-            <img
-              class="contact-cir-icon"
-              src="../assets/mockup-cir.png"
-              alt=""
-            />
-            <h1 class="nm-text">LINE</h1>
+            <img class="contact-cir-icon" :src="contactInfo[i].path" alt />
+            <h1 class="nm-text">{{contactInfo[i].name}}</h1>
           </div>
         </div>
       </div>
@@ -23,7 +19,24 @@
 export default {
   data() {
     return {
-      contactList: 6,
+      contactInfo: [
+        {
+          name: "Github",
+          path: require("../assets/contact-icon/github.png"),
+        },
+        {
+          name: "Email",
+          path: require("../assets/contact-icon/mail.png"),
+        },
+        {
+          name: "Line",
+          path: require("../assets/contact-icon/line.png"),
+        },
+        {
+          name: "Facebook",
+          path: require("../assets/contact-icon/face.png"),
+        }
+      ]
     };
   },
 };

@@ -3,17 +3,17 @@
     <div id="skill-container" class="page-container">
       <h1 class="header">SKILL SUMMARY</h1>
 
-      <div id="skill-box" v-for="(skill, i) in skillList" :key="i">
+      <div id="skill-box" v-for="(skill, i) in skillInfo" :key="i">
         <div>
-          <img class="yl-bullet" src="../assets/Ellipse_32x.png" alt="" />
+          <img class="yl-bullet" src="../assets/Ellipse_32x.png" alt />
         </div>
 
         <div>
-          <h1 class="title">USER INTERFACE & DESIGN</h1>
+          <h1 class="title">{{skillInfo[i].name}}</h1>
         </div>
 
-        <div v-for="(skill, i) in skillIcon" :key="i">
-          <img class="skill-cir-icon" src="../assets/mockup-cir.png" alt="" />
+        <div v-for="(skill, i) in skillInfo[i].icon" :key="i">
+          <img class="skill-cir-icon" :src="skill.path" alt />
         </div>
       </div>
     </div>
@@ -27,8 +27,46 @@
 export default {
   data() {
     return {
-      skillList: 4,
-      skillIcon: 4,
+      skillInfo: [
+        {
+          name: "SKILL NAME",
+          icon: [
+            { path: require("../assets/skill-icon/c.png") },
+            { path: require("../assets/skill-icon/pyt.png") },
+            { path: require("../assets/skill-icon/r.png") },
+            { path: require("../assets/skill-icon/df.png") },
+            { path: require("../assets/skill-icon/html-2.png") },
+            { path: require("../assets/skill-icon/js-2.png") },
+            { path: require("../assets/skill-icon/css-2.png") },
+          ],
+        },
+        {
+          name: "WEBSITE DEVELOPMENT",
+          icon: [
+            { path: require("../assets/skill-icon/vue.png") },
+            { path: require("../assets/skill-icon/react.png") },
+            { path: require("../assets/skill-icon/njs.png") },
+            { path: require("../assets/skill-icon/sql.png") },
+            { path: require("../assets/skill-icon/fb-2.png") },
+          ],
+        },
+        {
+          name: "CMS WITH WEBSITE",
+          icon: [
+            { path: require("../assets/skill-icon/wp.png") },
+            { path: require("../assets/skill-icon/elem.png") },
+          ],
+        },
+        {
+          name: "USER INTERFACE & DESIGN",
+          icon: [
+            { path: require("../assets/skill-icon/figma.png") },
+            { path: require("../assets/skill-icon/xd.png") },
+            { path: require("../assets/skill-icon/ps.png") },
+            { path: require("../assets/skill-icon/pr.png") },
+          ],
+        }
+      ]
     };
   },
 };
@@ -71,6 +109,8 @@ export default {
 
 .skill-cir-icon {
   margin: 0px 10px;
+  width: 50px;
+  border-radius: 50%;
 }
 
 .title {

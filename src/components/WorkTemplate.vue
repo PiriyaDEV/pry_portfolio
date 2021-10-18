@@ -1,6 +1,6 @@
 <template>
   <div id="work-template">
-    <img class="yl-bullet" src="../assets/Ellipse_32x.png" alt="" />
+    <img class="yl-bullet" src="../assets/Ellipse_32x.png" alt />
 
     <div id="information">
       <h1 class="title">{{ workInfo.name }}</h1>
@@ -8,31 +8,30 @@
 
       <div class="skill-cir">
         <div v-for="(skill, i) in workInfo.icon" :key="i">
-          <img class="skill-cir-icon" :src="workInfo.icon[i].path" alt="" />
+          <img class="skill-cir-icon" :src="workInfo.icon[i].path" alt />
         </div>
       </div>
 
-      <p class="p-text">
-        {{ workInfo.description }}
-      </p>
+      <p class="p-text">{{ workInfo.description }}</p>
 
       <div v-if="workInfo.links != null">
         <h1 class="p-text" v-for="(link, i) in workInfo.links" :key="i">
           {{ workInfo.links[i].name }} :
-          <a class="link-text" :href="workInfo.links[i].path" target="_blank">{{
+          <a
+            class="link-text"
+            :href="workInfo.links[i].path"
+            target="_blank"
+          >
+            {{
             workInfo.links[i].path
-          }}</a>
+            }}
+          </a>
         </h1>
       </div>
     </div>
 
     <div>
-      <vueper-slides
-        autoplay
-        :arrows="false"
-        :touchable="false"
-        :fixed-height="true"
-      >
+      <vueper-slides autoplay :arrows="false" :touchable="false" :fixed-height="true">
         <vueper-slide
           v-for="(slide, i) in workInfo.images"
           :key="i"
@@ -78,7 +77,8 @@ export default {
 }
 
 .skill-cir-icon {
-  width: 35px;
+  width: 50px;
+  border-radius: 50%;
 }
 
 .vueperslides {

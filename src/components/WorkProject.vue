@@ -102,16 +102,19 @@ export default {
           ],
           images: [
             {
-              path: require("../assets/work/ai/Screen Shot 2564-04-05 at 23.46 2.png"),
+              path: require("../assets/work/ai/Screen Shot 2564-10-18 at 18.01.27.png"),
             },
             {
-              path: require("../assets/work/ai/Screen Shot 2564-04-05 at 23.46 3.png"),
+              path: require("../assets/work/ai/Screen Shot 2564-10-18 at 18.02.25.png"),
             },
             {
-              path: require("../assets/work/ai/Screen Shot 2564-04-05 at 23.48 1.png"),
+              path: require("../assets/work/ai/Screen Shot 2564-10-18 at 18.02.11.png"),
             },
             {
-              path: require("../assets/work/ai/Screen Shot 2564-04-05 at 23.49 1.png"),
+              path: require("../assets/work/ai/Screen Shot 2564-10-18 at 18.02.54.png"),
+            },
+            {
+              path: require("../assets/work/ai/Screen Shot 2564-10-18 at 18.01.59.png"),
             },
           ],
         },
@@ -133,16 +136,19 @@ export default {
           ],
           images: [
             {
-              path: require("../assets/work/richeplace/Screen Shot 2564-04-05 at 23.52 1.png"),
+              path: require("../assets/work/riche/Screen Shot 2564-10-18 at 18.03.43.png"),
             },
             {
-              path: require("../assets/work/richeplace/Screen Shot 2564-04-05 at 23.52 3.png"),
+              path: require("../assets/work/riche/Screen Shot 2564-10-18 at 18.04.00.png"),
             },
             {
-              path: require("../assets/work/richeplace/Screen Shot 2564-04-05 at 23.53 1.png"),
+              path: require("../assets/work/riche/Screen Shot 2564-10-18 at 18.04.09.png"),
             },
             {
-              path: require("../assets/work/richeplace/Screen Shot 2564-04-05 at 23.53 3.png"),
+              path: require("../assets/work/riche/Screen Shot 2564-10-18 at 18.04.25.png"),
+            },
+            {
+              path: require("../assets/work/riche/Screen Shot 2564-10-18 at 18.04.43.png"),
             },
           ],
         },
@@ -164,16 +170,16 @@ export default {
           ],
           images: [
             {
-              path: require("../assets/work/Learning Connext/Screen Shot 2564-04-05 at 23.57 1.png"),
+              path: require("../assets/work/lc/Screen Shot 2564-04-05 at 23.57 1.png"),
             },
             {
-              path: require("../assets/work/Learning Connext/Screen Shot 2564-04-05 at 23.57 2.png"),
+              path: require("../assets/work/lc/Screen Shot 2564-04-05 at 23.57 2.png"),
             },
             {
-              path: require("../assets/work/Learning Connext/Screen Shot 2564-04-05 at 23.58 1.png"),
+              path: require("../assets/work/lc/Screen Shot 2564-04-05 at 23.58 1.png"),
             },
             {
-              path: require("../assets/work/Learning Connext/Screen Shot 2564-04-05 at 23.59 1.png"),
+              path: require("../assets/work/lc/Screen Shot 2564-04-05 at 23.59 1.png"),
             },
           ],
         },
@@ -190,24 +196,27 @@ export default {
           description:
             "Vue.js Registration Website for the competitor in Thailand Machine Learning for Chemistry Competition. Users can create teams and follow news, files and videos via their own dashboard. Currently there are 1069 active users in the system",
           icon: [
-            { path: require("@/assets/skill-icon/wp.png") },
-            { path: require("@/assets/skill-icon/elem.png") },
+            { path: require("@/assets/skill-icon/vue.png") },
+            { path: require("@/assets/skill-icon/njs.png") },
+            { path: require("@/assets/skill-icon/sql.png") },
           ],
           images: [
             {
-              path: require("../assets/work/Learning Connext/Screen Shot 2564-04-05 at 23.57 1.png"),
+              path: require("../assets/work/tmlcc/Screen Shot 2564-10-18 at 18.09.18.png"),
             },
             {
-              path: require("../assets/work/Learning Connext/Screen Shot 2564-04-05 at 23.57 2.png"),
+              path: require("../assets/work/tmlcc/Screen Shot 2564-10-18 at 18.09.26.png"),
             },
             {
-              path: require("../assets/work/Learning Connext/Screen Shot 2564-04-05 at 23.58 1.png"),
+              path: require("../assets/work/tmlcc/Screen Shot 2564-10-18 at 18.09.42.png"),
             },
             {
-              path: require("../assets/work/Learning Connext/Screen Shot 2564-04-05 at 23.59 1.png"),
+              path: require("../assets/work/tmlcc/Screen Shot 2564-10-18 at 18.09.49.png"),
+            },
+            {
+              path: require("../assets/work/tmlcc/Screen Shot 2564-10-18 at 18.10.09.png"),
             },
           ],
-<<<<<<< HEAD
         },
         {
           name: "Banyen Chatbot",
@@ -222,21 +231,25 @@ export default {
           description:
             "Receiving product order and stock management for client by team “Banyen” by Siam Cement Group",
           icon: [
-            { path: require("@/assets/skill-icon/wp.png") },
-            { path: require("@/assets/skill-icon/elem.png") },
+            { path: require("@/assets/skill-icon/df.png") },
+            { path: require("@/assets/skill-icon/ggs-2.png") },
+            { path: require("@/assets/skill-icon/gs-2.png") },
           ],
           images: [
             {
-              path: require("../assets/work/Banyen Chatbot (SCG)/Screenshot_20200330_234401_jp.naver.line.png"),
+              path: require("../assets/work/by/1.png"),
             },
             {
-              path: require("../assets/work/Banyen Chatbot (SCG)/Screenshot_20200330_234419_jp.naver.line.png"),
+              path: require("../assets/work/by/2.png"),
             },
             {
-              path: require("../assets/work/Banyen Chatbot (SCG)/Screenshot_20200330_234508_jp.naver.line.png"),
+              path: require("../assets/work/by/3.png"),
             },
             {
-              path: require("../assets/work/Banyen Chatbot (SCG)/Screenshot_20200330_234522_jp.naver.line.png"),
+              path: require("../assets/work/by/4.png"),
+            },
+            {
+              path: require("../assets/work/by/5.png"),
             },
           ],
         },
@@ -253,21 +266,25 @@ export default {
           description:
             "Gives information about Department of Computer Engineering Receiving the top score on a final project for course Computer Exploration",
           icon: [
-            { path: require("@/assets/skill-icon/wp.png") },
-            { path: require("@/assets/skill-icon/elem.png") },
+            { path: require("@/assets/skill-icon/df.png") },
+            { path: require("@/assets/skill-icon/fb-2.png") },
+            { path: require("@/assets/skill-icon/gs-2.png") },
           ],
           images: [
             {
-              path: require("../assets/work/CC CPE Chatbot/74389094_103253587814504_8015177829316558848_n.png"),
+              path: require("../assets/work/cc/1.png"),
             },
             {
-              path: require("../assets/work/CC CPE Chatbot/74389094_103253587814504_8015177829316558848_n.png"),
+              path: require("../assets/work/cc/2.png"),
             },
             {
-              path: require("../assets/work/CC CPE Chatbot/74389094_103253587814504_8015177829316558848_n.png"),
+              path: require("../assets/work/cc/3.png"),
             },
             {
-              path: require("../assets/work/CC CPE Chatbot/74389094_103253587814504_8015177829316558848_n.png"),
+              path: require("../assets/work/cc/4.png"),
+            },
+            {
+              path: require("../assets/work/cc/5.png"),
             },
           ],
         },
@@ -288,21 +305,25 @@ export default {
           description:
             "Website One-page of the event CPE night 2021. Using for promote the event, gives the information of the event and user account function for buying the gifts and tickets (Event Cancelled during COVID-19 situation)",
           icon: [
-            { path: require("@/assets/skill-icon/wp.png") },
-            { path: require("@/assets/skill-icon/elem.png") },
+            { path: require("@/assets/skill-icon/vue.png") },
+            { path: require("@/assets/skill-icon/njs.png") },
+            { path: require("@/assets/skill-icon/sql.png") },
           ],
           images: [
             {
-              path: require("../assets/work/CC CPE Chatbot/74389094_103253587814504_8015177829316558848_n.png"),
+              path: require("../assets/work/cpn/Screen Shot 2564-10-18 at 18.10.51.png"),
             },
             {
-              path: require("../assets/work/CC CPE Chatbot/74389094_103253587814504_8015177829316558848_n.png"),
+              path: require("../assets/work/cpn/Screen Shot 2564-10-18 at 18.11.02.png"),
             },
             {
-              path: require("../assets/work/CC CPE Chatbot/74389094_103253587814504_8015177829316558848_n.png"),
+              path: require("../assets/work/cpn/Screen Shot 2564-10-18 at 18.11.08.png"),
             },
             {
-              path: require("../assets/work/CC CPE Chatbot/74389094_103253587814504_8015177829316558848_n.png"),
+              path: require("../assets/work/cpn/Screen Shot 2564-10-18 at 18.11.14.png"),
+            },
+            {
+              path: require("../assets/work/cpn/Screen Shot 2564-10-18 at 18.11.21.png"),
             },
           ],
         },
@@ -323,21 +344,28 @@ export default {
           description:
             "This project will gather people that have the same interest and meet up. We virtualize the real system and experiences for this project. Which consists of creating a meetup event room, rating event, chat system and more. Users are able to redeem their points in exchange for their discount with our partners. Including a function that will analyse data for a role “analyzer” for business and marketing opportunities.",
           icon: [
-            { path: require("@/assets/skill-icon/wp.png") },
-            { path: require("@/assets/skill-icon/elem.png") },
+            { path: require("@/assets/skill-icon/vue.png") },
+            { path: require("@/assets/skill-icon/njs.png") },
+            { path: require("@/assets/skill-icon/sql.png") },
           ],
           images: [
             {
-              path: require("../assets/work/CC CPE Chatbot/74389094_103253587814504_8015177829316558848_n.png"),
+              path: require("../assets/work/fz/Screen Shot 2564-10-18 at 18.13.20.png"),
             },
             {
-              path: require("../assets/work/CC CPE Chatbot/74389094_103253587814504_8015177829316558848_n.png"),
+              path: require("../assets/work/fz/Screen Shot 2564-10-18 at 18.14.38.png"),
             },
             {
-              path: require("../assets/work/CC CPE Chatbot/74389094_103253587814504_8015177829316558848_n.png"),
+              path: require("../assets/work/fz/Screen Shot 2564-10-18 at 18.14.46.png"),
             },
             {
-              path: require("../assets/work/CC CPE Chatbot/74389094_103253587814504_8015177829316558848_n.png"),
+              path: require("../assets/work/fz/Screen Shot 2564-10-18 at 18.14.53.png"),
+            },
+            {
+              path: require("../assets/work/fz/Screen Shot 2564-10-18 at 18.15.08.png"),
+            },
+            {
+              path: require("../assets/work/fz/Screen Shot 2564-10-18 at 18.15.14.png"),
             },
           ],
         },
@@ -358,25 +386,26 @@ export default {
           description:
             "This project is called 'Blood donation campaign during COVID-19 for people who want to donate'. The website includes a video about how to prepare before blood donation. The knowledge about COVID-19 impact on blood supply, the suggestion when you receive the COVID-19 vaccine, and the criteria for who can donate blood. Also, there is the question to check about COVID-19 symptoms and the suggestion when you have COVID-19 symptoms to make donating as safe as possible.",
           icon: [
-            { path: require("@/assets/skill-icon/wp.png") },
-            { path: require("@/assets/skill-icon/elem.png") },
+            { path: require("@/assets/skill-icon/vue.png") },
+            { path: require("@/assets/skill-icon/fb-2.png") },
           ],
           images: [
             {
-              path: require("../assets/work/CC CPE Chatbot/74389094_103253587814504_8015177829316558848_n.png"),
+              path: require("../assets/work/bd/Screen Shot 2564-10-18 at 18.12.12.png"),
             },
             {
-              path: require("../assets/work/CC CPE Chatbot/74389094_103253587814504_8015177829316558848_n.png"),
+              path: require("../assets/work/bd/Screen Shot 2564-10-18 at 18.12.19.png"),
             },
             {
-              path: require("../assets/work/CC CPE Chatbot/74389094_103253587814504_8015177829316558848_n.png"),
+              path: require("../assets/work/bd/Screen Shot 2564-10-18 at 18.12.22.png"),
             },
             {
-              path: require("../assets/work/CC CPE Chatbot/74389094_103253587814504_8015177829316558848_n.png"),
+              path: require("../assets/work/bd/Screen Shot 2564-10-18 at 18.12.27.png"),
+            },
+            {
+              path: require("../assets/work/bd/Screen Shot 2564-10-18 at 18.12.29.png"),
             },
           ],
-=======
->>>>>>> main
         },
       ],
       swiperOption: {
