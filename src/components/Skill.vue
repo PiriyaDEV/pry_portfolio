@@ -9,7 +9,7 @@
         </div>
 
         <div>
-          <h1 class="title">{{skillInfo[i].name}}</h1>
+          <h1 class="title">{{ skillInfo[i].name }}</h1>
         </div>
 
         <div v-for="(skill, i) in skillInfo[i].icon" :key="i">
@@ -65,8 +65,8 @@ export default {
             { path: require("../assets/skill-icon/ps.png") },
             { path: require("../assets/skill-icon/pr.png") },
           ],
-        }
-      ]
+        },
+      ],
     };
   },
 };

@@ -2,9 +2,38 @@
   <div id="information" class="section">
     <div id="information-container" class="page-container">
       <div id="navbar">
-        <h1 class="nm-text nav-text">Work & Project</h1>
-        <h1 class="nm-text nav-text">Skill</h1>
-        <h1 class="nm-text nav-text">Contact</h1>
+        <a
+          href="#work-project"
+          v-smooth-scroll="{
+            duration: 1000,
+            offset: 70,
+            updateHistory: true,
+          }"
+          class="nm-text nav-text"
+          >Work & Project</a
+        >
+        <h1
+          href="#skill"
+          v-smooth-scroll="{
+            duration: 1000,
+            offset: 70,
+            updateHistory: true,
+          }"
+          class="nm-text nav-text"
+        >
+          Skill
+        </h1>
+        <h1
+          href="#contact"
+          v-smooth-scroll="{
+            duration: 1000,
+            offset: 70,
+            updateHistory: true,
+          }"
+          class="nm-text nav-text"
+        >
+          Contact
+        </h1>
       </div>
 
       <div id="name-section">
@@ -55,6 +84,8 @@ export default {};
 .nav-text {
   margin-right: 90px;
   cursor: pointer;
+  text-decoration: none;
+  color: #1a1a1a;
 }
 
 .name-text {

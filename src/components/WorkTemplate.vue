@@ -17,21 +17,20 @@
       <div v-if="workInfo.links != null">
         <h1 class="p-text" v-for="(link, i) in workInfo.links" :key="i">
           {{ workInfo.links[i].name }} :
-          <a
-            class="link-text"
-            :href="workInfo.links[i].path"
-            target="_blank"
-          >
-            {{
-            workInfo.links[i].path
-            }}
+          <a class="link-text" :href="workInfo.links[i].path" target="_blank">
+            {{ workInfo.links[i].path }}
           </a>
         </h1>
       </div>
     </div>
 
     <div>
-      <vueper-slides autoplay :arrows="false" :touchable="false" :fixed-height="true">
+      <vueper-slides
+        autoplay
+        :arrows="false"
+        :touchable="false"
+        :fixed-height="true"
+      >
         <vueper-slide
           v-for="(slide, i) in workInfo.images"
           :key="i"

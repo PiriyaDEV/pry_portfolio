@@ -7,7 +7,7 @@
         <div v-for="(contact, i) in contactInfo" :key="i">
           <div>
             <img class="contact-cir-icon" :src="contactInfo[i].path" alt />
-            <h1 class="nm-text">{{contactInfo[i].name}}</h1>
+            <h1 class="nm-text">{{ contactInfo[i].name }}</h1>
           </div>
         </div>
       </div>
@@ -35,8 +35,8 @@ export default {
         {
           name: "Facebook",
           path: require("../assets/contact-icon/face.png"),
-        }
-      ]
+        },
+      ],
     };
   },
 };
@@ -44,6 +44,7 @@ export default {
 
 <style scoped>
 #contact {
+  padding: 20px 0px 0px 0px;
   background-color: #4960ac;
 }
 .header,
@@ -61,6 +62,6 @@ export default {
 }
 
 #contact-box {
-  margin: 80px 0px 100px 0px;
+  margin: 50px 0px 50px 0px;
 }
 </style>
