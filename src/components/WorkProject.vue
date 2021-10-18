@@ -207,6 +207,7 @@ export default {
               path: require("../assets/work/Learning Connext/Screen Shot 2564-04-05 at 23.59 1.png"),
             },
           ],
+<<<<<<< HEAD
         },
         {
           name: "Banyen Chatbot",
@@ -374,6 +375,8 @@ export default {
               path: require("../assets/work/CC CPE Chatbot/74389094_103253587814504_8015177829316558848_n.png"),
             },
           ],
+=======
+>>>>>>> main
         },
       ],
       swiperOption: {
