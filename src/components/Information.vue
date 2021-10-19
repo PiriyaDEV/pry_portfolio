@@ -7,7 +7,7 @@
           v-smooth-scroll="{
             duration: 1000,
             offset: 70,
-            updateHistory: true,
+            updateHistory: false,
           }"
           class="nm-text nav-text"
           >Work & Project</a
@@ -17,7 +17,7 @@
           v-smooth-scroll="{
             duration: 1000,
             offset: 70,
-            updateHistory: true,
+            updateHistory: false,
           }"
           class="nm-text nav-text"
         >
@@ -28,7 +28,7 @@
           v-smooth-scroll="{
             duration: 1000,
             offset: 70,
-            updateHistory: true,
+            updateHistory: false,
           }"
           class="nm-text nav-text"
         >
