@@ -6,7 +6,7 @@
       <div id="cert-box">
         <swiper class="swiper" :options="swiperOption">
           <swiper-slide v-for="(cert, i) in certPic" :key="i">
-            <div>
+            <div class="section">
               <a :href="certPic[i].path" target="_blank">
                 <img class="cert-img" :src="certPic[i].path" alt />
               </a>
@@ -30,8 +30,18 @@ export default {
   data() {
     return {
       swiperOption: {
-        slidesPerView: 3,
-        spaceBetween: 30,
+        slidesPerView: 1,
+        spaceBetween: 20,
+        breakpoints: {
+          980: {
+            slidesPerView: 3,
+            spaceBetween: 30,
+          },
+          500: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+          },
+        },
         autoplay: {
           delay: 4000,
           disableOnInteraction: true,
@@ -84,7 +94,7 @@ export default {
 }
 
 .cert-img {
-  width: 300px;
+  width: 330px;
   margin: 10px 0px 80px 0px;
 }
 
@@ -93,5 +103,31 @@ export default {
   align-items: center;
   justify-content: flex-start;
   flex-wrap: wrap;
+}
+
+@media screen and (max-width: 1650px) {
+  .cert-img {
+    width: 300px;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .cert-img {
+    width: 200px;
+  }
+
+  #cert-container {
+    overflow: hidden;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .cert-img {
+    width: 300px;
+  }
+
+  .swiper-pagination-bullet {
+    width: 5px !important;
+    height: 5px !important;
+  }
 }
 </style>

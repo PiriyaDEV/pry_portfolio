@@ -1,9 +1,15 @@
 <template>
   <div id="work-template">
-    <img class="yl-bullet" src="../assets/Ellipse_32x.png" alt />
+    <img class="yl-bullet yl-pc" src="../assets/Ellipse_32x.png" alt />
 
     <div id="information">
-      <h1 class="title">{{ workInfo.name }}</h1>
+      <div id="title-header">
+        <img class="yl-res yl-bullet" src="../assets/Ellipse_32x.png" alt />
+        <h1 class="title">{{ workInfo.name }}</h1>
+        <i v-if="workInfo.works == `work`" class="fa fa-briefcase"></i>
+        <i v-else class="fa fa-book"></i>
+      </div>
+
       <h1 class="bracket">({{ workInfo.bracket }})</h1>
 
       <div class="skill-cir">
@@ -65,6 +71,10 @@ export default {
   align-items: flex-start;
 }
 
+.yl-res {
+  display: none;
+}
+
 .title {
   margin-top: 0px;
   margin-bottom: 0px;
@@ -82,5 +92,55 @@ export default {
 
 .vueperslides {
   margin-top: 20px;
+}
+
+#title-header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.fa {
+  font-size: 3em;
+  margin-left: 15px;
+  color: #737373;
+  margin-top: 3px;
+}
+
+@media screen and (max-width: 1280px) {
+  .yl-pc {
+    display: none;
+  }
+
+  .skill-cir-icon {
+    width: 40px;
+  }
+
+  .yl-res {
+    display: initial;
+    margin-top: 0px;
+    margin-right: 15px;
+    width: 30px;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .yl-res {
+    width: 20px;
+  }
+
+  .skill-cir-icon {
+    width: 30px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .bracket {
+    margin: 15px 0px;
+  }
+
+  .p-text {
+    margin: 20px 0px;
+  }
 }
 </style>

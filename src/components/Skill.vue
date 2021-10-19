@@ -85,10 +85,10 @@ export default {
 }
 
 #blue-circle-2 {
-  width: 260px;
+  width: 240px;
   position: absolute;
-  left: -100px;
-  top: 0px;
+  left: -130px;
+  top: -50px;
   z-index: 1;
 }
 
@@ -127,5 +127,45 @@ export default {
   right: -50px;
   bottom: -60px;
   z-index: 1;
+}
+
+@media screen and (max-width: 1410px) {
+  #pf-art {
+    width: 400px;
+    right: -50px;
+    bottom: -60px;
+  }
+
+  #blue-circle-2 {
+    width: 140px;
+    left: -80px;
+    top: -50px;
+  }
+
+  #yellow-circle-2 {
+    width: 500px;
+    right: -150px;
+    bottom: 0px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  #yellow-circle-2 {
+    width: 400px;
+    right: -160px;
+    bottom: 0px;
+  }
+
+  #blue-circle-2 {
+    width: 140px;
+    left: -80px;
+    top: -20px;
+  }
+
+  #pf-art {
+    width: 300px;
+    right: -50px;
+    bottom: -60px;
+  }
 }
 </style>

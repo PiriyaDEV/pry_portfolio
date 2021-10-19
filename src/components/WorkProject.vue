@@ -1,7 +1,19 @@
 <template>
   <div id="work-project" class="section">
     <div id="wp-container" class="page-container">
-      <h1 class="header">WORK EXPERIENCE & PROJECT</h1>
+      <div id="work-header">
+        <h1 class="header">WORK EXPERIENCE & PROJECT</h1>
+        <div class="section">
+          <div id="work-icon" class="section">
+            <i class="fa fa-briefcase"></i>
+            <h1 class="sm-text">WORK</h1>
+          </div>
+          <div id="pj-icon" class="section">
+            <i class="fa fa-book"></i>
+            <h1 class="sm-text">PROJECT</h1>
+          </div>
+        </div>
+      </div>
 
       <div id="tag-section">
         <div :class="allColor" @click="clickFilter(`all`)">
@@ -93,6 +105,7 @@ export default {
               path: "https://www.facebook.com/AIThaiSmartbyAIForAll",
             },
           ],
+          works: "work",
           type: "wordpress",
           description:
             "Blog website for project “AI for ALL” giving information, news and knowledge about AI for Thai people. Provided by NXPO and PMU",
@@ -127,6 +140,7 @@ export default {
               path: "https://richedevelopment.com",
             },
           ],
+          works: "work",
           type: "wordpress",
           description:
             "Real estate website for “Riche Place” provided by Procon & system company limited",
@@ -161,6 +175,7 @@ export default {
               path: "https://learningconnext.com/",
             },
           ],
+          works: "work",
           type: "wordpress",
           description:
             "Real estate Website for learning center “Learning Connext” learning sources for kids, family and community",
@@ -192,6 +207,7 @@ export default {
               path: "https://tmlcc.cseathai.org/",
             },
           ],
+          works: "work",
           type: "webdev",
           description:
             "Vue.js Registration Website for the competitor in Thailand Machine Learning for Chemistry Competition. Users can create teams and follow news, files and videos via their own dashboard. Currently there are 1069 active users in the system",
@@ -227,6 +243,7 @@ export default {
           //     path: "https://tmlcc.cseathai.org/",
           //   },
           // ],
+          works: "work",
           type: "chatbot",
           description:
             "Receiving product order and stock management for client by team “Banyen” by Siam Cement Group",
@@ -254,41 +271,6 @@ export default {
           ],
         },
         {
-          name: "CC CPE BOT",
-          bracket: "Computer Exploration Project",
-          // links: [
-          //   {
-          //     name: "Website",
-          //     path: "https://tmlcc.cseathai.org/",
-          //   },
-          // ],
-          type: "chatbot",
-          description:
-            "Gives information about Department of Computer Engineering Receiving the top score on a final project for course Computer Exploration",
-          icon: [
-            { path: require("@/assets/skill-icon/df.png") },
-            { path: require("@/assets/skill-icon/fb-2.png") },
-            { path: require("@/assets/skill-icon/gs-2.png") },
-          ],
-          images: [
-            {
-              path: require("../assets/work/cc/1.png"),
-            },
-            {
-              path: require("../assets/work/cc/2.png"),
-            },
-            {
-              path: require("../assets/work/cc/3.png"),
-            },
-            {
-              path: require("../assets/work/cc/4.png"),
-            },
-            {
-              path: require("../assets/work/cc/5.png"),
-            },
-          ],
-        },
-        {
           name: "CPE Night 2021",
           bracket: "Vue.js Website",
           links: [
@@ -301,6 +283,7 @@ export default {
               path: "https://cpenight-demo.netlify.app/ ",
             },
           ],
+          works: "project",
           type: "webdev",
           description:
             "Website One-page of the event CPE night 2021. Using for promote the event, gives the information of the event and user account function for buying the gifts and tickets (Event Cancelled during COVID-19 situation)",
@@ -328,6 +311,42 @@ export default {
           ],
         },
         {
+          name: "CC CPE BOT",
+          bracket: "Computer Exploration Project",
+          // links: [
+          //   {
+          //     name: "Website",
+          //     path: "https://tmlcc.cseathai.org/",
+          //   },
+          // ],
+          works: "project",
+          type: "chatbot",
+          description:
+            "Gives information about Department of Computer Engineering Receiving the top score on a final project for course Computer Exploration",
+          icon: [
+            { path: require("@/assets/skill-icon/df.png") },
+            { path: require("@/assets/skill-icon/fb-2.png") },
+            { path: require("@/assets/skill-icon/gs-2.png") },
+          ],
+          images: [
+            {
+              path: require("../assets/work/cc/1.png"),
+            },
+            {
+              path: require("../assets/work/cc/2.png"),
+            },
+            {
+              path: require("../assets/work/cc/3.png"),
+            },
+            {
+              path: require("../assets/work/cc/4.png"),
+            },
+            {
+              path: require("../assets/work/cc/5.png"),
+            },
+          ],
+        },
+        {
           name: "Friendzone",
           bracket: "Computer Exploration Project",
           links: [
@@ -340,6 +359,7 @@ export default {
               path: "https://friendzone-app.netlify.app/",
             },
           ],
+          works: "project",
           type: "webdev",
           description:
             "This project will gather people that have the same interest and meet up. We virtualize the real system and experiences for this project. Which consists of creating a meetup event room, rating event, chat system and more. Users are able to redeem their points in exchange for their discount with our partners. Including a function that will analyse data for a role “analyzer” for business and marketing opportunities.",
@@ -382,6 +402,7 @@ export default {
               path: "https://cpe2-blooddonation.netlify.app/",
             },
           ],
+          works: "project",
           type: "webdev",
           description:
             "This project is called 'Blood donation campaign during COVID-19 for people who want to donate'. The website includes a video about how to prepare before blood donation. The knowledge about COVID-19 impact on blood supply, the suggestion when you receive the COVID-19 vaccine, and the criteria for who can donate blood. Also, there is the question to check about COVID-19 symptoms and the suggestion when you have COVID-19 symptoms to make donating as safe as possible.",
@@ -432,7 +453,10 @@ export default {
 </script>
 
 <style scoped>
-#work-project {
+#work-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .work-template {
@@ -455,5 +479,73 @@ export default {
 
 #work-section {
   margin: 50px 0px;
+}
+
+.fa {
+  font-size: 3em;
+  margin-right: 10px;
+  color: #737373;
+}
+
+#work-icon {
+  margin-right: 25px;
+}
+
+/* #work-icon > h1,
+#pj-icon > h1 {
+  color: #c4c4c4;
+} */
+
+@media screen and (max-width: 1280px) {
+  #work-template,
+  #work-header {
+    display: block;
+  }
+
+  .header {
+    margin-bottom: 5px;
+  }
+
+  #work-icon {
+    margin-right: 30px;
+  }
+
+  #work-header > div {
+    justify-content: flex-start;
+    margin-bottom: 20px;
+  }
+
+  #wp-container {
+    overflow: hidden;
+  }
+
+  #tag-section {
+    flex-wrap: wrap;
+  }
+
+  #tag-section > div {
+    margin-bottom: 15px;
+  }
+
+  #work-section {
+    margin: 20px 0px;
+  }
+}
+
+@media screen and (max-width: 820px) {
+  #wp-container {
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  #work-header > div {
+    justify-content: center;
+  }
+
+  #tag-section > div {
+    margin-bottom: 30px;
+    margin-right: 0px;
+  }
 }
 </style>
