@@ -6,12 +6,15 @@
       <div id="contact-box" class="section">
         <div v-for="(contact, i) in contactInfo" :key="i">
           <div>
-            <img
-              @click="clickLink(contactInfo[i].link)"
-              class="contact-cir-icon"
-              :src="contactInfo[i].path"
-              alt
-            />
+            <div>
+              <img
+                @click="clickLink(contactInfo[i].link)"
+                class="contact-cir-icon"
+                :src="contactInfo[i].path"
+                alt
+              />
+            </div>
+
             <h1 @click="clickLink(contactInfo[i].link)" class="nm-text">
               {{ contactInfo[i].name }}
             </h1>
@@ -84,5 +87,34 @@ export default {
 #contact-box > div > div > img,
 #contact-box > div > div > h1 {
   cursor: pointer;
+}
+
+@media screen and (max-width: 680px) {
+  #contact-box {
+    display: block;
+    margin: 30px 0px;
+  }
+
+  .contact-cir-icon {
+    width: 40px;
+    margin: 0px 30px 0px 35px;
+  }
+
+  #contact-box > div > div {
+    display: flex;
+  }
+
+  .nm-text {
+    margin-top: 10px;
+  }
+
+  #contact-box > div {
+    margin-bottom: 20px;
+  }
+
+  #contact {
+    padding: 40px 0px 30px 0px;
+    background-color: #4960ac;
+  }
 }
 </style>

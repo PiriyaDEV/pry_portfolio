@@ -334,7 +334,7 @@ button {
 
   /* Text */
   .nm-text {
-    font-size: 1.5em;
+    font-size: 1.75em;
   }
 
   /* .sm-text {
