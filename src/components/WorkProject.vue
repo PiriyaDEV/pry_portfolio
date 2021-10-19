@@ -432,6 +432,7 @@ export default {
       swiperOption: {
         slidesPerView: 1,
         spaceBetween: 30,
+        simulateTouch: false,
         autoplay: {
           delay: 7000,
           disableOnInteraction: true,
