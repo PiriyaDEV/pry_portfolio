@@ -1,15 +1,53 @@
 <!DOCTYPE html>
 <html lang="">
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="icon" href="<%= BASE_URL %>pry-icon-wb.png">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <link rel="icon" href="<%= BASE_URL %>pry-icon-wb.png" />
     <title>C.Piriya | Portfolio</title>
+    <meta
+      name="title"
+      content="C.Piriya | Portfolio"
+    />
+    <meta
+      name="description"
+      content="Hi, I'm Piriya Chaigul. Welcome to my portfolio."
+    />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://piriya-portfolio.netlify.app/" />
+    <meta
+      property="og:title"
+      content="C.Piriya | Portfolio"
+    />
+    <meta
+      property="og:description"
+      content="Hi, I'm Piriya Chaigul. Welcome to my portfolio."
+    />
+    <meta property="og:image" content="<%= BASE_URL %>banner.png" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://piriya-portfolio.netlify.app/" />
+    <meta
+      property="twitter:title"
+      content="C.Piriya | Portfolio"
+    />
+    <meta
+      property="twitter:description"
+      content="Hi, I'm Piriya Chaigul. Welcome to my portfolio."
+    />
+    <meta property="twitter:image" content="<%= BASE_URL %>banner.png" />
   </head>
   <body>
     <noscript>
-      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+      <strong
+        >We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work
+        properly without JavaScript enabled. Please enable it to
+        continue.</strong
+      >
     </noscript>
     <div id="app"></div>
     <!-- built files will be auto injected -->
