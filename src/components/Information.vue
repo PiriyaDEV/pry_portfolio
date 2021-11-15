@@ -1,12 +1,12 @@
 <template>
-  <div id="information" class="section">
-    <div id="information-container" class="page-container">
-      <div id="navbar">
+  <div>
+    <div id="navbar-mobile" class="section">
+      <div class="navbar-container">
         <a
           href="#work-project"
           v-smooth-scroll="{
             duration: 1000,
-            offset: 70,
+            offset: -50,
             updateHistory: false,
           }"
           class="nm-text nav-text"
@@ -35,28 +35,66 @@
           Contact
         </h1>
       </div>
-
-      <div id="name-section">
-        <p class="bg-text">
-          HELLO, <br />
-          I'm <span class="name-text">Piriya Chaigul</span> <br />
-          <span class="role-text">FRONTEND DEV.</span> <br />
-        </p>
-      </div>
-
-      <div id="study-section">
-        <div class="yellow-btn">
-          <h1 class="nm-text">NOW...</h1>
-        </div>
-        <div>
-          <h1 class="nm-text">STUDY @ COMPUTER ENGINEERING KMUTT</h1>
-        </div>
-      </div>
-
-      <img id="pf-pic" src="../assets/pd-pic.png" alt="" />
     </div>
-    <img id="yellow-circle" src="../assets/Subtraction_12x.png" />
-    <img id="blue-circle" src="../assets/Ellipse_12x.png" />
+    <div id="information" class="section">
+      <div id="information-container" class="page-container">
+        <div id="navbar">
+          <a
+            href="#work-project"
+            v-smooth-scroll="{
+              duration: 1000,
+              offset: 70,
+              updateHistory: false,
+            }"
+            class="nm-text nav-text"
+            >Work & Project</a
+          >
+          <h1
+            href="#skill"
+            v-smooth-scroll="{
+              duration: 1000,
+              offset: 70,
+              updateHistory: false,
+            }"
+            class="nm-text nav-text"
+          >
+            Skill
+          </h1>
+          <h1
+            href="#contact"
+            v-smooth-scroll="{
+              duration: 1000,
+              offset: 70,
+              updateHistory: false,
+            }"
+            class="nm-text nav-text"
+          >
+            Contact
+          </h1>
+        </div>
+
+        <div id="name-section">
+          <p class="bg-text">
+            HELLO, <br />
+            I'm <span class="name-text">Piriya Chaigul</span> <br />
+            <span class="role-text">WEBSITE DEV.</span> <br />
+          </p>
+        </div>
+
+        <div id="study-section">
+          <div class="yellow-btn">
+            <h1 class="nm-text">NOW...</h1>
+          </div>
+          <div>
+            <h1 class="nm-text">STUDY @ COMPUTER ENGINEERING KMUTT</h1>
+          </div>
+        </div>
+
+        <img id="pf-pic" src="../assets/pd-pic.png" alt="" />
+      </div>
+      <img id="yellow-circle" src="../assets/Subtraction_12x.png" />
+      <img id="blue-circle" src="../assets/Ellipse_12x.png" />
+    </div>
   </div>
 </template>
 
@@ -79,6 +117,10 @@ export default {};
   margin-top: 30px;
   display: flex;
   align-items: center;
+}
+
+#navbar-mobile {
+  display: none;
 }
 
 .nav-text {
@@ -182,6 +224,7 @@ export default {};
 @media screen and (max-width: 820px) {
   #information-container {
     padding-bottom: 100px;
+    margin-top: 50px;
   }
 
   #yellow-circle {
@@ -193,6 +236,30 @@ export default {};
 
   #navbar {
     display: none;
+  }
+
+  #navbar-mobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10000;
+    position: fixed;
+    width: 100%;
+    background-color: #ffffff;
+    -webkit-box-shadow: 0 0px 5px #e5e3e3;
+    -moz-box-shadow: 0 0px 5px #e5e3e3;
+    box-shadow: 0 0px 5px #e5e3e3;
+    padding: 22px 0px 18px 0px;
+  }
+
+  #navbar-mobile > div {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .nav-text {
+    margin: 0px;
   }
 
   /* #study-section {
