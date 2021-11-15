@@ -428,6 +428,78 @@ export default {
             },
           ],
         },
+        {
+          name: "Beauty Life Website",
+          bracket: "Website Project about PWD people.",
+          links: [
+            {
+              name: "Github",
+              path: "https://github.com/PiriyaDEV/pwd-website",
+            },
+            {
+              name: "Website",
+              path: "https://beautylife.netlify.app/",
+            },
+          ],
+          works: "project",
+          type: "webdev",
+          description:
+            "This project will study and give information about the people with disability (PWD). We will develop a website to share information about this group of people. The website includes interview text about PWD’s lives, experience, what PWD wants along, knowledge about PWD, statistical information, rights of PWD, etc.",
+          icon: [
+            { path: require("@/assets/skill-icon/react.png") },
+            { path: require("@/assets/skill-icon/fb-2.png") },
+          ],
+          images: [
+            {
+              path: require("../assets/work/beautylife/Screen Shot 2564-11-15 at 17.58.08.png"),
+            },
+            {
+              path: require("../assets/work/beautylife/Screen Shot 2564-11-15 at 17.58.15.png"),
+            },
+            {
+              path: require("../assets/work/beautylife/Screen Shot 2564-11-15 at 17.58.21.png"),
+            },
+            {
+              path: require("../assets/work/beautylife/Screen Shot 2564-11-15 at 17.58.27.png"),
+            },
+            {
+              path: require("../assets/work/beautylife/Screen Shot 2564-11-15 at 17.58.36.png"),
+            },
+          ],
+        },
+        {
+          name: "Hari Hari Ramen (On-going)",
+          bracket: "QR code Ramen Restuarant System",
+          links: [
+            {
+              name: "Github",
+              path: "https://github.com/PiriyaDEV/harihari-ramen",
+            },
+          ],
+          works: "project",
+          type: "webdev",
+          description:
+            "React.js project for the ramen restuarant that allow User to order the food by login via QR Code to entered the table. User can order the customise ramen that will change the image according the choice that user select. Also have a system for Staff to managing the system.",
+          icon: [
+            { path: require("@/assets/skill-icon/react.png") },
+            { path: require("@/assets/skill-icon/njs.png") },
+            { path: require("@/assets/skill-icon/sql.png") },
+          ],
+          images: [
+            {
+              path: require("../assets/work/ramen/Screen Shot 2564-11-15 at 18.15.30.png"),
+            },
+            {
+              path: require("../assets/work/ramen/Screen Shot 2564-11-15 at 18.15.34.png"),
+            },
+            {
+              path: require("../assets/work/ramen/Screen Shot 2564-11-15 at 18.15.39.png"),
+            },
+            {
+              path: require("../assets/work/ramen/Screen Shot 2564-11-15 at 18.15.46.png"),
+            },
+          ],
+        },
       ],
       swiperOption: {
         slidesPerView: 1,
