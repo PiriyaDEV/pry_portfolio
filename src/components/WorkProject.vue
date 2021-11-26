@@ -498,6 +498,12 @@ export default {
             {
               path: require("../assets/work/ramen/Screen Shot 2564-11-15 at 18.15.46.png"),
             },
+            {
+              path: require("../assets/work/ramen/Screen Shot 2564-11-26 at 07.45.40.png"),
+            },
+            {
+              path: require("../assets/work/ramen/Screen Shot 2564-11-26 at 07.45.10.png"),
+            },
           ],
         },
       ],
