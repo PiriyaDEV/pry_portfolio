@@ -468,7 +468,7 @@ export default {
           ],
         },
         {
-          name: "Hari Hari Ramen (On-going)",
+          name: "Hari Hari Ramen",
           bracket: "QR code Ramen Restuarant System",
           links: [
             {
