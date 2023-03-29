@@ -32,15 +32,15 @@ export default {
     return {
       skillInfo: [
         {
-          name: "SKILL NAME",
+          name: "SKILLS",
           icon: [
+            { path: require("../assets/skill-icon/html-2.png") },
+            { path: require("../assets/skill-icon/js-2.png") },
+            { path: require("../assets/skill-icon/css-2.png") },
             { path: require("../assets/skill-icon/c.png") },
             { path: require("../assets/skill-icon/pyt.png") },
             { path: require("../assets/skill-icon/r.png") },
             { path: require("../assets/skill-icon/df.png") },
-            { path: require("../assets/skill-icon/html-2.png") },
-            { path: require("../assets/skill-icon/js-2.png") },
-            { path: require("../assets/skill-icon/css-2.png") },
           ],
         },
         {
@@ -54,15 +54,24 @@ export default {
           ],
         },
         {
+          name: "MOBILE DEVELOPMENT",
+          icon: [
+            { path: require("../assets/skill-icon/flutter.png") },
+            { path: require("../assets/skill-icon/react.png") },
+          ],
+        },
+        {
           name: "CMS WITH WEBSITE",
           icon: [
             { path: require("../assets/skill-icon/wp.png") },
             { path: require("../assets/skill-icon/elem.png") },
+            { path: require("../assets/skill-icon/strapi.jpeg") },
           ],
         },
         {
           name: "USER INTERFACE & DESIGN",
           icon: [
+            { path: require("../assets/skill-icon/tailwind.png") },
             { path: require("../assets/skill-icon/figma.png") },
             { path: require("../assets/skill-icon/xd.png") },
             { path: require("../assets/skill-icon/ps.png") },

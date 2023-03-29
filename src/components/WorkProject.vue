@@ -96,6 +96,171 @@ export default {
       clickType: "all",
       works: [
         {
+          name: "Asia Pacific Symposium on Safety​ 2023",
+          works: "work",
+          type: "webdev",
+          description:
+            "APSS 2023 website, developed using react.js and strapi as CMS, is a platform for researchers and engineers in industrial safety, occupational health, and environmental protection to present their research, discuss related topics, and foster professional relationships.",
+          icon: [
+            { path: require("@/assets/skill-icon/react.png") },
+            { path: require("@/assets/skill-icon/strapi.jpeg") },
+            { path: require("@/assets/skill-icon/tailwind.png") },
+          ],
+          images: [
+            {
+              path: require("../assets/work/2023/che/pic-1.png"),
+            },
+            {
+              path: require("../assets/work/2023/che/pic-2.png"),
+            },
+            {
+              path: require("../assets/work/2023/che/pic-3.png"),
+            },
+            {
+              path: require("../assets/work/2023/che/pic-4.png"),
+            },
+            {
+              path: require("../assets/work/2023/che/pic-5.png"),
+            },
+          ],
+        },
+        {
+          name: "KMUTT Health Care Unit Website",
+          works: "work",
+          type: "webdev",
+          description:
+            "The KMUTT Health Care Unit website has been developed using React.js with Strapi as the CMS. As a dedicated platform for the university's Health Care Unit, the website showcases all of the services, news, and activities of the unit, providing students and faculty members with a comprehensive and easily accessible resource.",
+          icon: [
+            { path: require("@/assets/skill-icon/react.png") },
+            { path: require("@/assets/skill-icon/strapi.jpeg") },
+            { path: require("@/assets/skill-icon/tailwind.png") },
+          ],
+          images: [
+            {
+              path: require("../assets/work/2023/hcu/pic-1.png"),
+            },
+            {
+              path: require("../assets/work/2023/hcu/pic-2.png"),
+            },
+            {
+              path: require("../assets/work/2023/hcu/pic-3.png"),
+            },
+            {
+              path: require("../assets/work/2023/hcu/pic-4.png"),
+            },
+            {
+              path: require("../assets/work/2023/hcu/pic-5.png"),
+            },
+          ],
+        },
+        {
+          name: "Nursing Association of Thailand Eastern Website",
+          works: "work",
+          type: "webdev",
+          description:
+            "The Nursing Association of Thailand Eastern Branch's website has been created using the latest web technologies such as React.js with Strapi as the CMS. This website is dedicated to providing information about the services, news, and work of the association, serving as a comprehensive and easily accessible resource for its members and the public.",
+          icon: [
+            { path: require("@/assets/skill-icon/react.png") },
+            { path: require("@/assets/skill-icon/strapi.jpeg") },
+            { path: require("@/assets/skill-icon/tailwind.png") },
+          ],
+          images: [
+            {
+              path: require("../assets/work/2023/eastnurse/pic-1.png"),
+            },
+            {
+              path: require("../assets/work/2023/eastnurse/pic-2.png"),
+            },
+            {
+              path: require("../assets/work/2023/eastnurse/pic-3.png"),
+            },
+            {
+              path: require("../assets/work/2023/eastnurse/pic-4.png"),
+            },
+            {
+              path: require("../assets/work/2023/eastnurse/pic-5.png"),
+            },
+          ],
+        },
+        {
+          name: "Quantum Experience Website",
+          works: "work",
+          type: "webdev",
+          description:
+            "The Quantum Experience website has been developed using React.js with Strapi as the CMS. QX is a research unit under the Faculty of Science, King Mongkut's University of Technology Thonburi, which was formed by physicists and computer engineers who aim to understand the fundamental nature of quantum information and quantum computing through the integration of other technologies such as machine learning and high-performance computing. The objective is to transfer knowledge and develop human resources to prepare Thailand for the arrival of quantum technology.",
+          icon: [
+            { path: require("@/assets/skill-icon/react.png") },
+            { path: require("@/assets/skill-icon/strapi.jpeg") },
+            { path: require("@/assets/skill-icon/tailwind.png") },
+          ],
+          links: [
+            {
+              name: "Facebook",
+              path: "https://www.facebook.com/qxkmutt/",
+            },
+            {
+              name: "Website",
+              path: "https://qx.kmutt.ac.th/",
+            },
+          ],
+          images: [
+            {
+              path: require("../assets/work/2023/qx/pic-1.png"),
+            },
+            {
+              path: require("../assets/work/2023/qx/pic-2.png"),
+            },
+            {
+              path: require("../assets/work/2023/qx/pic-3.png"),
+            },
+            {
+              path: require("../assets/work/2023/qx/pic-4.png"),
+            },
+            {
+              path: require("../assets/work/2023/qx/pic-5.png"),
+            },
+          ],
+        },
+        {
+          name: "SOFA HOUSE Music Website",
+          works: "work",
+          type: "webdev",
+          description:
+            "The SOFA HOUSE Music website has been developed using React.js and SQL to create a database. This website serves as a portfolio for the SOFA HOUSE music team, showcasing all of the music that the team has produced and providing users with an immersive and engaging listening experience.",
+          icon: [
+            { path: require("@/assets/skill-icon/react.png") },
+            { path: require("@/assets/skill-icon/strapi.jpeg") },
+            { path: require("@/assets/skill-icon/tailwind.png") },
+          ],
+          links: [
+            {
+              name: "Facebook",
+              path: "https://www.facebook.com/sofahouse.th",
+            },
+            {
+              name: "Website",
+              path: "https://sofahousemusic.com/",
+            },
+          ],
+          images: [
+            {
+              path: require("../assets/work/2023/sofa/pic-1.png"),
+            },
+            {
+              path: require("../assets/work/2023/sofa/pic-2.png"),
+            },
+            {
+              path: require("../assets/work/2023/sofa/pic-3.png"),
+            },
+            {
+              path: require("../assets/work/2023/sofa/pic-4.png"),
+            },
+            {
+              path: require("../assets/work/2023/sofa/pic-5.png"),
+            },
+          ],
+        },
+        {
           name: "AI FOR ALL",
           bracket: "Mhesi/Nxpo",
           links: [
@@ -132,85 +297,61 @@ export default {
           ],
         },
         {
-          name: "Riche’ Place",
-          bracket: "Riche Development",
+          name: "Hari Hari Ramen",
+          bracket: "QR code Ramen Restuarant System",
           links: [
             {
-              name: "Website",
-              path: "https://richedevelopment.com",
+              name: "Github",
+              path: "https://github.com/PiriyaDEV/harihari-ramen",
             },
           ],
-          works: "work",
-          type: "wordpress",
-          description:
-            "Real estate website for “Riche Place” provided by Procon & system company limited",
-          icon: [
-            { path: require("@/assets/skill-icon/wp.png") },
-            { path: require("@/assets/skill-icon/elem.png") },
-          ],
-          images: [
-            {
-              path: require("../assets/work/riche/Screen Shot 2564-10-18 at 18.03.43.png"),
-            },
-            {
-              path: require("../assets/work/riche/Screen Shot 2564-10-18 at 18.04.00.png"),
-            },
-            {
-              path: require("../assets/work/riche/Screen Shot 2564-10-18 at 18.04.09.png"),
-            },
-            {
-              path: require("../assets/work/riche/Screen Shot 2564-10-18 at 18.04.25.png"),
-            },
-            {
-              path: require("../assets/work/riche/Screen Shot 2564-10-18 at 18.04.43.png"),
-            },
-          ],
-        },
-        {
-          name: "Learning Connect",
-          bracket: "Connextion",
-          links: [
-            {
-              name: "Website",
-              path: "https://learningconnext.com/",
-            },
-          ],
-          works: "work",
-          type: "wordpress",
-          description:
-            "Real estate Website for learning center “Learning Connext” learning sources for kids, family and community",
-          icon: [
-            { path: require("@/assets/skill-icon/wp.png") },
-            { path: require("@/assets/skill-icon/elem.png") },
-          ],
-          images: [
-            {
-              path: require("../assets/work/lc/Screen Shot 2564-04-05 at 23.57 1.png"),
-            },
-            {
-              path: require("../assets/work/lc/Screen Shot 2564-04-05 at 23.57 2.png"),
-            },
-            {
-              path: require("../assets/work/lc/Screen Shot 2564-04-05 at 23.58 1.png"),
-            },
-            {
-              path: require("../assets/work/lc/Screen Shot 2564-04-05 at 23.59 1.png"),
-            },
-          ],
-        },
-        {
-          name: "TMLCC Website",
-          bracket: "Thailand Machine Learning for Chemistry Competition",
-          links: [
-            {
-              name: "Website",
-              path: "https://tmlcc.cseathai.org/",
-            },
-          ],
-          works: "work",
+          works: "project",
           type: "webdev",
           description:
-            "Vue.js Registration Website for the competitor in Thailand Machine Learning for Chemistry Competition. Users can create teams and follow news, files and videos via their own dashboard. Currently there are 1069 active users in the system",
+            "React.js project for the ramen restuarant that allow User to order the food by login via QR Code to entered the table. User can order the customise ramen that will change the image according the choice that user select. Also have a system for Staff to managing the system.",
+          icon: [
+            { path: require("@/assets/skill-icon/react.png") },
+            { path: require("@/assets/skill-icon/njs.png") },
+            { path: require("@/assets/skill-icon/sql.png") },
+          ],
+          images: [
+            {
+              path: require("../assets/work/ramen/Screen Shot 2564-11-15 at 18.15.30.png"),
+            },
+            {
+              path: require("../assets/work/ramen/Screen Shot 2564-11-15 at 18.15.34.png"),
+            },
+            {
+              path: require("../assets/work/ramen/Screen Shot 2564-11-15 at 18.15.39.png"),
+            },
+            {
+              path: require("../assets/work/ramen/Screen Shot 2564-11-15 at 18.15.46.png"),
+            },
+            {
+              path: require("../assets/work/ramen/Screen Shot 2564-11-26 at 07.45.40.png"),
+            },
+            {
+              path: require("../assets/work/ramen/Screen Shot 2564-11-26 at 07.45.10.png"),
+            },
+          ],
+        },
+        {
+          name: "Friendzone",
+          bracket: "Computer Exploration Project",
+          links: [
+            {
+              name: "Github",
+              path: "https://github.com/PiriyaDEV/friendzone_app",
+            },
+            {
+              name: "Website (Only Frontend)",
+              path: "https://friendzone-app.netlify.app/",
+            },
+          ],
+          works: "project",
+          type: "webdev",
+          description:
+            "This project will gather people that have the same interest and meet up. We virtualize the real system and experiences for this project. Which consists of creating a meetup event room, rating event, chat system and more. Users are able to redeem their points in exchange for their discount with our partners. Including a function that will analyse data for a role “analyzer” for business and marketing opportunities.",
           icon: [
             { path: require("@/assets/skill-icon/vue.png") },
             { path: require("@/assets/skill-icon/njs.png") },
@@ -218,55 +359,22 @@ export default {
           ],
           images: [
             {
-              path: require("../assets/work/tmlcc/Screen Shot 2564-10-18 at 18.09.18.png"),
+              path: require("../assets/work/fz/Screen Shot 2564-10-18 at 18.13.20.png"),
             },
             {
-              path: require("../assets/work/tmlcc/Screen Shot 2564-10-18 at 18.09.26.png"),
+              path: require("../assets/work/fz/Screen Shot 2564-10-18 at 18.14.38.png"),
             },
             {
-              path: require("../assets/work/tmlcc/Screen Shot 2564-10-18 at 18.09.42.png"),
+              path: require("../assets/work/fz/Screen Shot 2564-10-18 at 18.14.46.png"),
             },
             {
-              path: require("../assets/work/tmlcc/Screen Shot 2564-10-18 at 18.09.49.png"),
+              path: require("../assets/work/fz/Screen Shot 2564-10-18 at 18.14.53.png"),
             },
             {
-              path: require("../assets/work/tmlcc/Screen Shot 2564-10-18 at 18.10.09.png"),
-            },
-          ],
-        },
-        {
-          name: "Banyen Chatbot",
-          bracket: "Banyen SCG’s Team",
-          // links: [
-          //   {
-          //     name: "Website",
-          //     path: "https://tmlcc.cseathai.org/",
-          //   },
-          // ],
-          works: "work",
-          type: "chatbot",
-          description:
-            "Receiving product order and stock management for client by team “Banyen” by Siam Cement Group",
-          icon: [
-            { path: require("@/assets/skill-icon/df.png") },
-            { path: require("@/assets/skill-icon/ggs-2.png") },
-            { path: require("@/assets/skill-icon/gs-2.png") },
-          ],
-          images: [
-            {
-              path: require("../assets/work/by/1.png"),
+              path: require("../assets/work/fz/Screen Shot 2564-10-18 at 18.15.08.png"),
             },
             {
-              path: require("../assets/work/by/2.png"),
-            },
-            {
-              path: require("../assets/work/by/3.png"),
-            },
-            {
-              path: require("../assets/work/by/4.png"),
-            },
-            {
-              path: require("../assets/work/by/5.png"),
+              path: require("../assets/work/fz/Screen Shot 2564-10-18 at 18.15.14.png"),
             },
           ],
         },
@@ -311,6 +419,133 @@ export default {
           ],
         },
         {
+          name: "TMLCC Website",
+          bracket: "Thailand Machine Learning for Chemistry Competition",
+          works: "work",
+          type: "webdev",
+          description:
+            "Vue.js Registration Website for the competitor in Thailand Machine Learning for Chemistry Competition. Users can create teams and follow news, files and videos via their own dashboard. Currently there are 1069 active users in the system",
+          icon: [
+            { path: require("@/assets/skill-icon/vue.png") },
+            { path: require("@/assets/skill-icon/njs.png") },
+            { path: require("@/assets/skill-icon/sql.png") },
+          ],
+          images: [
+            {
+              path: require("../assets/work/tmlcc/Screen Shot 2564-10-18 at 18.09.18.png"),
+            },
+            {
+              path: require("../assets/work/tmlcc/Screen Shot 2564-10-18 at 18.09.26.png"),
+            },
+            {
+              path: require("../assets/work/tmlcc/Screen Shot 2564-10-18 at 18.09.42.png"),
+            },
+            {
+              path: require("../assets/work/tmlcc/Screen Shot 2564-10-18 at 18.09.49.png"),
+            },
+            {
+              path: require("../assets/work/tmlcc/Screen Shot 2564-10-18 at 18.10.09.png"),
+            },
+          ],
+        },
+        {
+          name: "Riche’ Place",
+          bracket: "Riche Development",
+          links: [
+            {
+              name: "Website",
+              path: "https://richedevelopment.com",
+            },
+          ],
+          works: "work",
+          type: "wordpress",
+          description:
+            "Real estate website for “Riche Place” provided by Procon & system company limited",
+          icon: [
+            { path: require("@/assets/skill-icon/wp.png") },
+            { path: require("@/assets/skill-icon/elem.png") },
+          ],
+          images: [
+            {
+              path: require("../assets/work/riche/Screen Shot 2564-10-18 at 18.03.43.png"),
+            },
+            {
+              path: require("../assets/work/riche/Screen Shot 2564-10-18 at 18.04.00.png"),
+            },
+            {
+              path: require("../assets/work/riche/Screen Shot 2564-10-18 at 18.04.09.png"),
+            },
+            {
+              path: require("../assets/work/riche/Screen Shot 2564-10-18 at 18.04.25.png"),
+            },
+            {
+              path: require("../assets/work/riche/Screen Shot 2564-10-18 at 18.04.43.png"),
+            },
+          ],
+        },
+        {
+          name: "Learning Connext",
+          bracket: "Connextion",
+          works: "work",
+          type: "wordpress",
+          description:
+            "Real estate Website for learning center “Learning Connext” learning sources for kids, family and community",
+          icon: [
+            { path: require("@/assets/skill-icon/wp.png") },
+            { path: require("@/assets/skill-icon/elem.png") },
+          ],
+          images: [
+            {
+              path: require("../assets/work/lc/Screen Shot 2564-04-05 at 23.57 1.png"),
+            },
+            {
+              path: require("../assets/work/lc/Screen Shot 2564-04-05 at 23.57 2.png"),
+            },
+            {
+              path: require("../assets/work/lc/Screen Shot 2564-04-05 at 23.58 1.png"),
+            },
+            {
+              path: require("../assets/work/lc/Screen Shot 2564-04-05 at 23.59 1.png"),
+            },
+          ],
+        },
+        {
+          name: "Banyen Chatbot",
+          bracket: "Banyen SCG’s Team",
+          // links: [
+          //   {
+          //     name: "Website",
+          //     path: "https://tmlcc.cseathai.org/",
+          //   },
+          // ],
+          works: "work",
+          type: "chatbot",
+          description:
+            "Receiving product order and stock management for client by team “Banyen” by Siam Cement Group",
+          icon: [
+            { path: require("@/assets/skill-icon/df.png") },
+            { path: require("@/assets/skill-icon/ggs-2.png") },
+            { path: require("@/assets/skill-icon/gs-2.png") },
+          ],
+          images: [
+            {
+              path: require("../assets/work/by/1.png"),
+            },
+            {
+              path: require("../assets/work/by/2.png"),
+            },
+            {
+              path: require("../assets/work/by/3.png"),
+            },
+            {
+              path: require("../assets/work/by/4.png"),
+            },
+            {
+              path: require("../assets/work/by/5.png"),
+            },
+          ],
+        },
+        {
           name: "CC CPE BOT",
           bracket: "Computer Exploration Project",
           // links: [
@@ -343,49 +578,6 @@ export default {
             },
             {
               path: require("../assets/work/cc/5.png"),
-            },
-          ],
-        },
-        {
-          name: "Friendzone",
-          bracket: "Computer Exploration Project",
-          links: [
-            {
-              name: "Github",
-              path: "https://github.com/PiriyaDEV/friendzone_app",
-            },
-            {
-              name: "Website (Only Frontend)",
-              path: "https://friendzone-app.netlify.app/",
-            },
-          ],
-          works: "project",
-          type: "webdev",
-          description:
-            "This project will gather people that have the same interest and meet up. We virtualize the real system and experiences for this project. Which consists of creating a meetup event room, rating event, chat system and more. Users are able to redeem their points in exchange for their discount with our partners. Including a function that will analyse data for a role “analyzer” for business and marketing opportunities.",
-          icon: [
-            { path: require("@/assets/skill-icon/vue.png") },
-            { path: require("@/assets/skill-icon/njs.png") },
-            { path: require("@/assets/skill-icon/sql.png") },
-          ],
-          images: [
-            {
-              path: require("../assets/work/fz/Screen Shot 2564-10-18 at 18.13.20.png"),
-            },
-            {
-              path: require("../assets/work/fz/Screen Shot 2564-10-18 at 18.14.38.png"),
-            },
-            {
-              path: require("../assets/work/fz/Screen Shot 2564-10-18 at 18.14.46.png"),
-            },
-            {
-              path: require("../assets/work/fz/Screen Shot 2564-10-18 at 18.14.53.png"),
-            },
-            {
-              path: require("../assets/work/fz/Screen Shot 2564-10-18 at 18.15.08.png"),
-            },
-            {
-              path: require("../assets/work/fz/Screen Shot 2564-10-18 at 18.15.14.png"),
             },
           ],
         },
@@ -467,52 +659,13 @@ export default {
             },
           ],
         },
-        {
-          name: "Hari Hari Ramen",
-          bracket: "QR code Ramen Restuarant System",
-          links: [
-            {
-              name: "Github",
-              path: "https://github.com/PiriyaDEV/harihari-ramen",
-            },
-          ],
-          works: "project",
-          type: "webdev",
-          description:
-            "React.js project for the ramen restuarant that allow User to order the food by login via QR Code to entered the table. User can order the customise ramen that will change the image according the choice that user select. Also have a system for Staff to managing the system.",
-          icon: [
-            { path: require("@/assets/skill-icon/react.png") },
-            { path: require("@/assets/skill-icon/njs.png") },
-            { path: require("@/assets/skill-icon/sql.png") },
-          ],
-          images: [
-            {
-              path: require("../assets/work/ramen/Screen Shot 2564-11-15 at 18.15.30.png"),
-            },
-            {
-              path: require("../assets/work/ramen/Screen Shot 2564-11-15 at 18.15.34.png"),
-            },
-            {
-              path: require("../assets/work/ramen/Screen Shot 2564-11-15 at 18.15.39.png"),
-            },
-            {
-              path: require("../assets/work/ramen/Screen Shot 2564-11-15 at 18.15.46.png"),
-            },
-            {
-              path: require("../assets/work/ramen/Screen Shot 2564-11-26 at 07.45.40.png"),
-            },
-            {
-              path: require("../assets/work/ramen/Screen Shot 2564-11-26 at 07.45.10.png"),
-            },
-          ],
-        },
       ],
       swiperOption: {
         slidesPerView: 1,
         spaceBetween: 30,
         simulateTouch: false,
         autoplay: {
-          delay: 7000,
+          delay: 10000,
           disableOnInteraction: true,
         },
         pagination: {

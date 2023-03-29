@@ -10,7 +10,7 @@
         <i v-else class="fa fa-book"></i>
       </div>
 
-      <h1 class="bracket">({{ workInfo.bracket }})</h1>
+      <h1 v-if="workInfo.bracket" class="bracket">({{ workInfo.bracket }})</h1>
 
       <div class="skill-cir">
         <div v-for="(skill, i) in workInfo.icon" :key="i">

@@ -43,7 +43,7 @@ export default {
         {
           name: "Email",
           path: require("../assets/contact-icon/mail.png"),
-          link: "mailto:piriya.cg@mail.kmutt.ac.th",
+          link: "mailto:pd.piriya@gmail.com",
         },
         {
           name: "Line",
