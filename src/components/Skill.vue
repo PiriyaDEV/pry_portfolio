@@ -22,7 +22,7 @@
     </div>
     <img id="blue-circle-2" src="../assets/Ellipse_132x.png" />
     <img id="yellow-circle-2" src="../assets/Subtraction_22x.png" />
-    <img id="pf-art" src="../assets/piriya-vector-small.png" />
+    <!-- <img id="pf-art" src="../assets/piriya-vector-small.png" /> -->
   </div>
 </template>
 
@@ -109,7 +109,7 @@ export default {
 }
 
 #yellow-circle-2 {
-  width: 600px;
+  width: 400px;
   position: absolute;
   right: -150px;
   bottom: 0px;
